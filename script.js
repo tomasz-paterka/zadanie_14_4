@@ -87,19 +87,12 @@ var moviesElements = movies.map(function(movie) {
 });
 
 var MovieList = React.createClass({
-	propTypes: {
-		movie: React.PropTypes.object.isRequired,
-	},
-	render: function () {
+	render: function() {
 		return (
 			React.createElement('ul', {}, moviesElements)
 		);
 	}
 });	
-	
-
-	
-	
 
 
 var element = 
